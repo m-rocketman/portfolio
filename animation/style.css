@@ -1,0 +1,201 @@
+h1 {
+  transform: translatex(200px);
+}
+h2 {
+  transform: rotate(50deg) translate(500px, 500px);
+}
+h3 {
+  transform: scale(2, 2);
+}
+div {
+  height: 100px;
+  width: 100px;
+  background-color: lavender;
+  transform: scale(2, 5) skew(32deg, 32deg);
+}
+section {
+  background-color: green;
+  height: 100px;
+  width: 200px;
+  margin: 50px auto;
+  animation-name: playingAround;
+  animation: playingAround 0.5s ease-in-out 0s infinite alternate;
+
+  /*animation-name: colorChange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  /*transition: transform 1s, background 5s;
+  /*transition: width 1s;
+  /*transition: transform 0.3s ease-in-out;*/
+}
+
+nav {
+  background-color: lightpink;
+  height: 200px;
+  width: 400px;
+  margin: 100px auto;
+  animation-name: playingNav;
+  animation: playingNav 3s ease-in-out 0s infinite alternate;
+  transform: rotate(45deg);
+}
+section:hover {
+  background-color: indianred;
+  /*transform: scale(1.2);*/
+  width: 400px;
+  border: black dashed 1px;
+}
+
+img {
+  margin: 500px;
+  animation-name: putinek;
+  animation: putinek 5s linear 0s infinite alternate;
+}
+
+h5 {
+  margin: 500px auto;
+  color: darkgoldenrod;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 78, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 20vw;
+  font-size: 120px;
+  animation-name: typo;
+  animation: typo 0.5s linear 0s infinite alternate;
+}
+
+@keyframes typo {
+  0% {
+    transform: translateY(0);
+    scale: 0;
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(10px);
+    scale: 0;
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(20px);
+    scale: 1.2;
+    opacity: 25%;
+  }
+  75% {
+    transform: translateY(40px);
+    scale: 1.5;
+    opacity: 75%;
+  }
+  100% {
+    transform: translateY(50px);
+    scale: 2;
+    opacity: 100%;
+  }
+}
+@keyframes putinek {
+  0% {
+    border: 1px, rosybrown solid;
+    transform: translateX(0);
+    scale: 0;
+    opacity: 0;
+  }
+  25% {
+    border: 1px, rosybrown solid;
+    transform: translateX(0);
+    scale: 0;
+    opacity: 0;
+  }
+  50% {
+    border: 2px, rosybrown solid;
+    transform: translateX(200px);
+    scale: 1.2;
+    opacity: 25%;
+  }
+  75% {
+    border: 4px, rosybrown solid;
+    transform: translateX(400px);
+    scale: 1.5;
+    opacity: 75%;
+  }
+  100% {
+    border: 5px, rosybrown solid;
+    transform: translateX(500px);
+    scale: 2;
+    opacity: 100%;
+  }
+}
+
+/*@keyframes colorChange {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: pink;
+  }
+} */
+
+@keyframes colorChange {
+  0% {
+    background-color: green;
+  }
+  10% {
+    background-color: orange;
+  }
+  50% {
+    background-color: yellow;
+  }
+  70% {
+    background-color: palevioletred;
+  }
+  82% {
+    background-color: red;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+@keyframes playingAround {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(175px);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+
+@keyframes playingNav {
+  0% {
+    transform: translateY(0);
+    background-color: lightpink;
+  }
+  25% {
+    transform: translateY(-50px);
+    background-color: lightseagreen;
+  }
+  50% {
+    transform: translateY(-100px);
+    background-color: mediumaquamarine;
+  }
+  75% {
+    transform: translateY(-175px);
+    background-color: mistyrose;
+  }
+  100% {
+    transform: translateY(-200px);
+    background-color: palegreen;
+    scale: 1.2;
+  }
+}
