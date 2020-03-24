@@ -366,3 +366,52 @@ img .mypic {
   font-weight: lighter;
   font-size: 2rem;
 }
+
+@media only screen and (max-width: 384px) {
+  .toBeGrid {
+    display: block;
+    width: 80vw;
+    align-items: center;
+  }
+  nav {
+    font-size: 16px;
+  }
+  nav img {
+    width: 40%;
+    height: 30%;
+  }
+  .socialmedia {
+    height: 25%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h1.projectName {
+    font-size: 16px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .text2 {
+    font-size: 14px;
+  }
+  .mypic {
+    visibility: hidden;
+    width: 35%;
+    height: 35%;
+  }
+  .rectangle2 {
+    height: 900px;
+  }
+  span.contact {
+    font-size: 16px;
+  }
+  .imagegallery {
+    padding: 15px;
+
+    margin-top: 10px;
+  }
+  .codeby {
+    font-size: 14px;
+  }
+}
