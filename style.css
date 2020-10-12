@@ -13,7 +13,7 @@ html {
 }
 
 .headline {
-  font-size: 36px;
+  font-size: 3vw;
   font-weight: medium;
   font-family: "Lato";
 }
@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-  padding: 14px 16px;
+  padding: 16px 16px;
 }
 a li:hover {
   color: var(--redish);
@@ -44,7 +44,7 @@ a li:hover {
 .text {
   width: 627px;
   font-family: Lato;
-  font-size: 42px;
+  font-size: 3vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -98,8 +98,9 @@ nav {
   background-color: var(--bedge);
 }
 .projectName {
-  margin-top: 25px;
-  font-size: 36px;
+  margin-top: 1vw;
+  margin-bottom: 0.5vw;
+  font-size: 1.5vw;
   font-family: Lato;
   font-weight: 500;
   font-stretch: normal;
@@ -109,8 +110,8 @@ nav {
   color: #2d2d2d;
 }
 .linkMedium {
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 1.5vw;
+  font-weight: 100;
   font-family: Lato;
 }
 .logo {
