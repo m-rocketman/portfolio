@@ -6,14 +6,14 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 10px;
+  font-size: 16px;
   --bedge: #f6f1ed;
   --blackish: #2d2d2d;
   --redish: #dd755e;
 }
 
 .headline {
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: medium;
   font-family: "Lato";
 }
@@ -21,7 +21,7 @@ html {
 ul {
   height: 74px;
   font-family: Lato;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-  padding: 16px 16px;
+  padding: 1vw 1vw;
 }
 a li:hover {
   color: var(--redish);
@@ -44,7 +44,7 @@ a li:hover {
 .text {
   width: 627px;
   font-family: Lato;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -114,10 +114,23 @@ nav {
   font-weight: 100;
   font-family: Lato;
 }
+
+.header3 {
+  font-size: 1.5vw;
+}
+
+.contact {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
 .logo {
   width: 484px;
   height: 484px;
   margin-right: 7rem;
+}
+
+#mypic {
+  margin-right: 2vw;
 }
 .upside:hover {
   background-color: var(--redish);
