@@ -415,7 +415,7 @@ img .mypic {
     font-size: 14px;
   }
 }
-@ -366,3 +366,52 @@ img .mypic {
+img .mypic {
   font-weight: lighter;
   font-size: 2rem;
 }
