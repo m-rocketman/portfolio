@@ -55,7 +55,7 @@ a li:hover {
 }
 
 .text2 {
-  width: 627px;
+  width: 40vw;
   font-family: Lato;
   font-size: 1vw;
   font-weight: 200;
@@ -86,7 +86,7 @@ nav {
 }
 
 .rectangle2 {
-  height: 600px;
+  height: 40vw;
   background-color: var(--bedge);
 }
 .section-1 {
